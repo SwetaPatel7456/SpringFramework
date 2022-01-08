@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang = "en" xmlns:th ="http://www.thymeleaf.org" th :fragment = Layout(content)>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel = 'stylesheet' href = "@{/style.css}"/>
+</head>
+<body>
+<div th :replace = "${content}" ></div>
+
+</body>
+</html>
